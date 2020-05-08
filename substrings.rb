@@ -1,8 +1,5 @@
 def sub_strings(string, dictionary)
-
-  string_array = string.downcase.split
-
-  match_table = string_array.reduce(Hash.new(0)) do |hash, input|
+  string.downcase.split.reduce(Hash.new(0)) do |hash, input|
     dictionary.each do |word| 
      if input.include?(word)
       hash[word] += 1
