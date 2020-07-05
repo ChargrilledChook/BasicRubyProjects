@@ -1,6 +1,11 @@
-### Basic Ruby Projects ###
+### Basic Ruby Projects
 
 4 small Ruby programs from The Odin Project.
 
-## Caesar ##
+## Caesar
 
+## Substrings
+
+## Stock Picker
+
+## Bubble Sort

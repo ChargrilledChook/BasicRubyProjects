@@ -10,8 +10,5 @@ def caesar(message, code)
       digit
     end
   end
-  decoded = coded.map(&:chr).join
+  coded.map(&:chr).join
 end
-
-pasta = 'Yum, pasta!!'
-puts caesar(pasta, -5000) #=> Qme, hskls!!
