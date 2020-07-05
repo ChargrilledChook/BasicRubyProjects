@@ -3,12 +3,12 @@ def bubble_sort(int_arr)
   # Set a swap counter to a non 0 value
   swap_counter = 1
   # Start a loop that continues until swap counter is 0
-  until swap_counter == 0 do 
+  until swap_counter == 0 do
     # Set swap counter to zero
-    swap_counter = 0 
+    swap_counter = 0
     # Start a loop iterating over the array n - 1 times
-    int_arr.each_with_index do |number, idx|
-      if int_arr[idx + 1] == nil 
+    int_arr.each_with_index do |_number, idx|
+      if int_arr[idx + 1] == nil
         break
       end
       # Each iteration compare num i vs num i + 1
@@ -25,14 +25,3 @@ end
 
 test_arr = [4,3,78,2,0,2]
 p bubble_sort(test_arr) #=> [0,2,2,3,4,78]
-
-
-
-
-
-
-
-
-
-
-
